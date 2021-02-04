@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a6a9e14.chunk.css",
+    "main.js": "/static/js/main.3788c8a2.chunk.js",
+    "main.js.map": "/static/js/main.3788c8a2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d480662c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d480662c.js.map",
+    "static/css/2.6f44476b.chunk.css": "/static/css/2.6f44476b.chunk.css",
+    "static/js/2.ff8d3fef.chunk.js": "/static/js/2.ff8d3fef.chunk.js",
+    "static/js/2.ff8d3fef.chunk.js.map": "/static/js/2.ff8d3fef.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.afe2901cb850075278b090db50b3f15d.js": "/precache-manifest.afe2901cb850075278b090db50b3f15d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.6f44476b.chunk.css.map": "/static/css/2.6f44476b.chunk.css.map",
+    "static/css/main.9a6a9e14.chunk.css.map": "/static/css/main.9a6a9e14.chunk.css.map",
+    "static/js/2.ff8d3fef.chunk.js.LICENSE.txt": "/static/js/2.ff8d3fef.chunk.js.LICENSE.txt",
+    "static/media/boathouse.png": "/static/media/boathouse.9d1b39a8.png",
+    "static/media/notifications.css": "/static/media/notification.c0d3c94c.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d480662c.js",
+    "static/css/2.6f44476b.chunk.css",
+    "static/js/2.ff8d3fef.chunk.js",
+    "static/css/main.9a6a9e14.chunk.css",
+    "static/js/main.3788c8a2.chunk.js"
+  ]
+}
