@@ -23,6 +23,8 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->string('phone')->nullable();
             $table->text('avatar')->nullable();
+            $table->boolean('is_loggedin')->default(false);
+            $table->timestamp('last_login')->nullable();
             $table->timestamps();
         });
     }

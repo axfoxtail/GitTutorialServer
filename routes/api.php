@@ -17,6 +17,8 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 
-Route::group(['prefix' => 'react'], function() {
-	Route::post('login', 'AuthController@login');
+Route::group(['prefix' => 'auth'], function() {
+	Route::post('register', 'UserController@register');
+	Route::post('login', 'UserController@login');
+	Route::post('logout', 'UserController@logout');
 });
