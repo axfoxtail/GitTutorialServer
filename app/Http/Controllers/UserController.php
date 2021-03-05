@@ -74,7 +74,9 @@ class UserController extends Controller
         }
         
         $user = User::find($request->id);
-
+        if(!$user) {
+            return response()->json(["status" => 400, "messages" => $validator->messages()], 400);
+        }
         $user->is_loggedin = false;
         $user->save();
 
